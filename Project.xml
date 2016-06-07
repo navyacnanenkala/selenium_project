@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project Testing">
+<test name="Testing Project">
+	
+	<parameter name="browser" value="chrome"/>
+		<classes> 
+			<class name="Project.CertificationProject" >
+				<methods>
+					<include name = "login"/>
+					
+					
+				</methods>
+			</class>
+		</classes> 
+  	</test>
+</suite>
